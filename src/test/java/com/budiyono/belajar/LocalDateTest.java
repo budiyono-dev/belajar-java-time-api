@@ -36,4 +36,12 @@ public class LocalDateTest {
         System.out.println("dateMei = " + dateMei);
         System.out.println("day2 = " + day2);
     }
+
+    @Test
+    void getDataLocalDateTest() {
+        LocalDate date = LocalDate.now();
+        System.out.println("date.getYear() = " + date.getYear());
+        System.out.println("date.getMonth() = " + date.getMonth());
+        System.out.println("date.getDayOfMonth() = " + date.getDayOfMonth());
+    }
 }
